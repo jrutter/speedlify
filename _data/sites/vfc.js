@@ -2,8 +2,8 @@ module.exports = {
 	name: "VFC", // optional, falls back to object key
 	description: "VF Sites",
 	options: {
-		runs: 1,
-		//frequency: 60 * 23, // (in minutes)
+		//runs: 1,
+		frequency: 60 * 23, // (in minutes)
         frequency: 1,
         freshChrome: "run"
 	},
