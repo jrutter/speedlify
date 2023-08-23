@@ -1,6 +1,6 @@
 module.exports = {
-	name: "Sample", // optional, falls back to object key
-	description: "The default sites that get tested",
+	name: "VFC", // optional, falls back to object key
+	description: "VF Sites",
 	options: {
 		runs: 1,
 		frequency: 60 * 23, // (in minutes)
@@ -9,5 +9,11 @@ module.exports = {
 	urls: [
         "https://www.vans.com/",
         "https://www.timberland.com/",
+        "https://www.thenortface.com/",
+        "https://www.dickies.com/",
+        "https://www.icebreaker.com/",
+        "https://www.altrarunning.com/",
+        "https://www.smartwool.com/",
+        "https://us.supreme.com/"
 	]
 };
